@@ -1,4 +1,3 @@
-
 public class TestCeasarCipherTwo {
 
 	public String halfOfString(String input, int start) {
@@ -21,9 +20,6 @@ public class TestCeasarCipherTwo {
 				counters[index]+=1;
 			}
 		}
-//		for(int k = 0; k < counters.length; k++) {
-//			System.out.println(alphabet.charAt(k)+"\t"+counters[k]);
-//		}
 		return counters;
 	}
 	
@@ -53,22 +49,16 @@ public void simpleTests() {
 		
 		String string1 = halfOfString(input, 0);
 		String string2 = halfOfString(input, 1);
-		//System.out.println(string1);
-		//System.out.println(string2);
 		
 		int [] freqs1 = countLetters(string1);
 		int [] freqs2 = countLetters(string2);
 		
 		int maxDex1 = maxIndex(freqs1);
 		int maxDex2 = maxIndex(freqs2);
-//		System.out.println(maxDex1);
-//		System.out.println(maxDex2);
 		
 		int dkey1 = maxDex1-4;
 		int dkey2 = maxDex2-18;
-//		System.out.println(dkey1);
-//		System.out.println(dkey2);
-		
+
 		if (maxDex1 < 4) {
 			dkey1 = 26 - (4-maxDex1);
 		}
@@ -85,7 +75,5 @@ public void simpleTests() {
 		TestCeasarCipherTwo test = new TestCeasarCipherTwo();
 		test.simpleTests();
 		System.out.println();
-		//System.out.println(test.breakCeasarCipher("Ha ! Lzak s lwkl kljafy. A ujwslwv gfw twusmkw lwkl kljafyk sjw yjwsl sfv nwjq mkwxmd !"));
-		//System.out.println(test.breakCeasarCipher("Ha ! Lmax nk s ljky xlwasy. N hjjsywi tfj gwhszkj ywxl kyjnflk sww ywwfl ssv njjd zkjxzd !"));
 	}
 }

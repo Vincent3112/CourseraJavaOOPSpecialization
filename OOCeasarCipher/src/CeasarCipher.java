@@ -46,8 +46,6 @@ public class CeasarCipher {
 	public static void main(String args[]) {
 		
 		CeasarCipher cesar = new CeasarCipher(15);
-		//System.out.println(cesar.encrypt("At noon be in the conference room with your hat on for a surprise party. YELL LOUD!", 15)); // 'o' is the character that occurs the most in this sentence so if you wanna break you will have to replace the 4 with a 14 in the decrypt programm !
-		//System.out.println(cesar.encryptTwoKeys("At noon be in the conference room with your hat on for a surprise party. YELL LOUD!", 8, 21));
 		System.out.println(cesar.decrypt("Pi cddc qt xc iwt rdcutgtcrt gddb lxiw ndjg wpi dc udg p hjgegxht epgin. NTAA ADJS!"));
 	}
 }

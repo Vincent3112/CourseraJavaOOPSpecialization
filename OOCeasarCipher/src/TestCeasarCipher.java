@@ -11,9 +11,6 @@ public class TestCeasarCipher {
 				counters[index]+=1;
 			}
 		}
-//		for(int k = 0; k < counters.length; k++) {
-//			System.out.println(alphabet.charAt(k)+"\t"+counters[k]);
-//		}
 		return counters;
 	}
 	
@@ -55,6 +52,6 @@ public class TestCeasarCipher {
 		TestCeasarCipher test = new TestCeasarCipher();
 		test.simpleTests();
 		System.out.println();
-		//System.out.println(test.breakCeasarCipher("Ha ! Lzak s lwkl kljafy. A ujwslwv gfw twusmkw lwkl kljafyk sjw yjwsl sfv nwjq mkwxmd !"));
+		System.out.println(test.breakCeasarCipher("Ha ! Lzak s lwkl kljafy. A ujwslwv gfw twusmkw lwkl kljafyk sjw yjwsl sfv nwjq mkwxmd !"));
 	}	
 }

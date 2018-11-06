@@ -67,8 +67,8 @@ public class CeasarCipherTwo {
 	
 public static void main(String args[]) {
 		
-		CeasarCipherTwo cesar = new CeasarCipherTwo(2, 15);
-		System.out.println(cesar.encryptTwoKeys("At noon be in the conference room with your hat on for a surprise party. YELL LOUD!"));
-		System.out.println(cesar.decryptTwoKeys("Ci cqdp dt xp vwg edpugggcet gqdo yxvw nqjt jpv qc uqg p hwgrgkhg rptia. NGAN NDWS!"));
+		CeasarCipherTwo cesar = new CeasarCipherTwo(21, 8);
+		System.out.println(cesar.encryptTwoKeys("Can you imagine life WITHOUT the internet AND computers in your pocket?"));
+		System.out.println(cesar.decryptTwoKeys("Top ncmy qkff vi vguv vbg ycpx"));
 	}
 }
